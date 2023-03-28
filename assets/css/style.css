@@ -127,10 +127,11 @@ h2#worktitle {
 }
 
 
-section.contactme {
+footer.contactme {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3%;
 }
 
 figure {
@@ -187,8 +188,7 @@ h5.calctext {
 h3.calctext,
 h3.ledtext,
 h3.pasteltext,
-h3.runtext,
-{
+h3.runtext {
   margin-top: 20%;
 }
 
@@ -260,7 +260,7 @@ figure.ledimage {
   margin-left: 12%;
   margin-right: -200%;
   margin-top: 20px;
-  padding-top: 25%;
+  padding-top: 2%;
 }
 
 figure.calculator {
@@ -274,8 +274,8 @@ figure.calculator {
   justify-content: flex-end;
   margin-right: -1165px;
   margin-left: 310%;
-  margin-top: -207px;
-  padding-top: 25%;
+  margin-top: -251px;
+  padding-top: 2%;
 }
 
 figure.pastel {
@@ -290,7 +290,6 @@ figure.pastel {
   margin-left: 12%;
   margin-right: -200%;
   margin-top: 30px;
-  padding-top: 20%;
 }
 
 figure.run {
@@ -304,8 +303,7 @@ figure.run {
   justify-content: flex-end;
   margin-right: -1165px;
   margin-left: 310%;
-  margin-top: -195px;
-  padding-top: 20%;
+  margin-top: -248px;
 }
 
 li.contactme {
@@ -328,7 +326,7 @@ ul.contactme {
   justify-content: flex-end;
   flex: 0 0 77%;
   margin-left: -40%;
-  padding-inline: 30px;
+  padding-right: 20%;
 }
 
 ul a {
@@ -347,7 +345,7 @@ ul a {
     align-items: center;
   }
 
-  section.contactme {
+  footer.contactme {
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -365,7 +363,7 @@ ul a {
     text-align: center;
   }
 
-  section.contactme {
+  footer.contactme {
     flex-direction: column;
     text-align: center;
     justify-content: center;
