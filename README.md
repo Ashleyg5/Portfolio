@@ -7,7 +7,7 @@
  ## Usage
  [Portfolio](https://ashleyg5.github.io/Portfolio/)
  
- [Portfolio Screenshot)](https://user-images.githubusercontent.com/118938942/228350711-e507e898-5a30-4f4f-86fc-18f09e142108.png)
+ [Portfolio Screenshot](https://user-images.githubusercontent.com/118938942/228350711-e507e898-5a30-4f4f-86fc-18f09e142108.png)
 
 
 ## Credits
