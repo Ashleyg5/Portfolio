@@ -6,4 +6,4 @@
  
  ## Usage
  [Portfolio Screenshot]("\assets\images\Portfolio Screenshot.png")
- [Portfolio]([https://ashleyg5.github.io/Portfolio/])
+ [Portfolio](https://ashleyg5.github.io/Portfolio/)
