@@ -8,3 +8,15 @@
  [Portfolio](https://ashleyg5.github.io/Portfolio/)
  
 ![Portfolio Screenshot](https://user-images.githubusercontent.com/118938942/228347869-eb96c5e9-b7f8-4d7f-ae7f-e0467e13d56a.png)
+
+## Credits
+
+[Resource 1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Resource 2](https://www.w3schools.com/css/css_positioning.asp)
+[Resource 3](https://www.w3schools.com/css/css3_variables.asp)
+
+My classmates, instructor, and TA's.
+
+## License
+
+MIT
