@@ -6,4 +6,4 @@
  
  ## Usage
  [![Portfolio Screenshot]("C:\Users\ashle\Downloads\Portfolio Screenshot.png")]
- [Portfolio]([https://www.example.com](https://ashleyg5.github.io/Portfolio/Links to an external site.)
+ [Portfolio]([https://ashleyg5.github.io/Portfolio/])
