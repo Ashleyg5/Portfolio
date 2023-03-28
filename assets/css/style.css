@@ -18,7 +18,6 @@ header {
 }
 
 .banner-text {
-  display: flex;
   margin: 3px;
 
 }
@@ -33,9 +32,6 @@ h1.name {
 }
 
 
-li.navbar {
-  list-style: none;
-}
 
 nav a {
   display: flex;
@@ -91,82 +87,58 @@ img {
   display: flex;
   height: 300px;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .hero-text {
   color: var(--tertiary);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
-  position: relative;
-  border: 1px solid var(--secondary);
   background-color: var(--secondary);
   margin-top: 12%;
   margin-bottom: 2%;
   margin-right: 5%;
 }
 
-h2#aboutme,
-h2#work,
-h2#contactme {
-  padding-left: 8%;
-  text-align: end;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  margin: 10%;
+h2#aboutmetitle {
   border-right: 3px solid var(--primary);
-  padding-right: 10px;
-  margin-bottom: 70%;
-  margin-top: 60px;
-  padding-bottom: 40px;
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  font-size: xxx-large;
 }
 
-article#work {
-  margin-left: 14%;
+p#aboutmetext {
+  flex: 0 0 77%;
 }
 
-h2#aboutme {
-  padding-bottom: 45%;
-  margin-bottom: 10%;
-}
-
-h2#work {
-  padding-left: 50px;
-  padding-bottom: 350%;
-  margin-top: 10%;
-  margin-bottom: 20%;
-}
-
-h2#contactme {
-  margin-top: 50%;
-}
-
-p.aboutme {
+section.aboutme {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 16%;
-  padding-inline: 10%;
+  justify-content: space-around !important;
   margin-top: 30px;
+  margin-bottom: 4%;
 }
 
-aside {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  flex-wrap: wrap;
-  font-size: xx-large;
-  align-items: stretch;
-  align-content: flex-end;
-  flex-grow: 100;
-  margin-left: 10%;
+h2#worktitle {
+  border-right: 3px solid var(--primary);
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  margin-left: 14px;
+  font-size: xxx-large;
 }
 
-article {
+
+section.contactme {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 figure {
+  display: flex;
+}
+
+
+section.work {
   display: flex;
 }
 
@@ -184,33 +156,45 @@ h5.runtext {
   color: var(--dark);
   flex-wrap: wrap;
   background-color: var(--secondary);
-  margin: 0;
-  margin-right: 90%;
   border: 3px solid var(--secondary);
 }
 
 h3.surftext,
 h5.surftext {
-  margin-right: 87%;
+  margin-right: 85%;
 }
 
 h3.ledtext,
 h5.ledtext {
-  margin-right: 85%;
+  margin-right: 70%;
 }
 
 h3.pasteltext,
 h5.pasteltext {
-  margin-right: 77%;
+  margin-right: 60%;
 }
 
 h3.runtext,
 h5.runtext {
-  margin-right: 82%;
+  margin-right: 70%;
+}
+
+h3.calctext,
+h5.calctext {
+  margin-right: 70%;
+}
+
+h3.calctext,
+h3.ledtext,
+h3.pasteltext,
+h3.runtext,
+{
+  margin-top: 20%;
 }
 
 h3 {
   font-size: xx-large;
+  margin-top: 5%;
 }
 
 h5 {
@@ -224,6 +208,11 @@ h5.pasteltext,
 h5.runtext {
   margin-bottom: 2.5%;
 
+}
+
+figure {
+  flex: 0 0 77%;
+  flex-wrap: wrap;
 }
 
 figure.surfimage:hover,
@@ -250,82 +239,73 @@ figure.surfimage {
   background-size: cover;
   border: 8px solid var(--secondary);
   flex-direction: column;
-  margin-top: -1%;
-  margin-left: 17.6%;
-  transform: scale(.79);
-  position: relative;
   flex-wrap: wrap;
   display: flex;
   height: 500px;
   justify-content: flex-end;
+  margin-left: 12%;
+  margin-right: -500%;
 }
+
 
 figure.ledimage {
   background-image: url(../images/02-portfolio-1.jpg);
   background-position: top;
   background-size: cover;
+  flex-basis: calc(50% - 1em);
   border: 8px solid var(--secondary);
   flex-direction: column;
-  margin-top: -6%;
-  margin-inline: 32%;
-  margin-left: 15.5%;
-  transform: scale(.6);
-  position: relative;
   flex-wrap: wrap;
-  display: flex;
-  height: 300px;
   justify-content: flex-end;
+  margin-left: 12%;
+  margin-right: -200%;
+  margin-top: 20px;
+  padding-top: 25%;
 }
 
 figure.calculator {
   background-image: url(../images/02-portfolio-2.jpg);
   background-position: top;
   background-size: cover;
+  flex-basis: calc(50% - 1em);
   border: 8px solid var(--secondary);
   flex-direction: column;
-  margin-top: -16.6%;
-  margin-left: 48%;
-  margin-right: -0.1px;
-  transform: scale(.6);
-  position: relative;
   flex-wrap: wrap;
-  display: flex;
-  height: 300px;
   justify-content: flex-end;
+  margin-right: -1165px;
+  margin-left: 310%;
+  margin-top: -207px;
+  padding-top: 25%;
 }
 
 figure.pastel {
   background-image: url(../images/02-portfolio-3.jpg);
   background-position: top;
   background-size: cover;
+  flex-basis: calc(50% - 1em);
   border: 8px solid var(--secondary);
   flex-direction: column;
-  margin-top: -6.5%;
-  margin-inline: 32%;
-  margin-left: 15.5%;
-  transform: scale(.6);
-  position: relative;
   flex-wrap: wrap;
-  display: flex;
-  height: 300px;
   justify-content: flex-end;
+  margin-left: 12%;
+  margin-right: -200%;
+  margin-top: 30px;
+  padding-top: 20%;
 }
 
 figure.run {
   background-image: url(../images/02-run-buddy.jpg);
   background-position: top;
   background-size: cover;
+  flex-basis: calc(50% - 1em);
   border: 8px solid var(--secondary);
   flex-direction: column;
-  margin-top: -16.6%;
-  margin-left: 48%;
-  margin-right: -0.1px;
-  transform: scale(.6);
-  position: relative;
   flex-wrap: wrap;
-  display: flex;
-  height: 300px;
   justify-content: flex-end;
+  margin-right: -1165px;
+  margin-left: 310%;
+  margin-top: -195px;
+  padding-top: 20%;
 }
 
 li.contactme {
@@ -333,11 +313,22 @@ li.contactme {
   margin: 14%;
 }
 
+h2#contactmetitle {
+  flex: 0 0 20%;
+  border-right: 3px solid var(--primary);
+  text-align: right;
+  padding: 20px;
+  margin-left: 14px;
+  font-size: xxx-large;
+}
+
 ul.contactme {
   display: flex;
-  margin-inline: 24%;
   color: var(--dark);
-  margin-top: -15px;
+  justify-content: flex-end;
+  flex: 0 0 77%;
+  margin-left: -40%;
+  padding-inline: 30px;
 }
 
 ul a {
@@ -351,10 +342,42 @@ ul a {
 
 
 
-@media screen (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+  header {
+    align-items: center;
+  }
 
-@media screen (max-width: 768px) {}
+  section.contactme {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
 
-@media screen (max-width: 1024px) {}
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
 
-@media screen (max-width: 1200px) {}
+  section.aboutme {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section.contactme {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  section.work {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 1200px) {}
