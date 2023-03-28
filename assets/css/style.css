@@ -19,7 +19,7 @@ header {
 
 .banner-text {
   margin: 3px;
-
+  font-size: xx-large;
 }
 
 h1.name {
@@ -325,7 +325,7 @@ ul.contactme {
   color: var(--dark);
   justify-content: flex-end;
   flex: 0 0 77%;
-  margin-left: -40%;
+  margin-left: -20%;
   padding-right: 20%;
 }
 
@@ -334,12 +334,13 @@ ul a {
   display: flex;
   color: var(--dark);
   list-style: none;
-  font-size: large;
+  font-size: larger;
   background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
-  background-size: 100% 0.1em;
+  background-size: 100% 0.15em;
   background-position: bottom;
   transition: all 0.25s ease-in;
+  padding-bottom: 10px;
 }
 
 ul a:hover {
