@@ -10,28 +10,12 @@
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
 }
-
+/* beginning of header section */
 header {
   display: flex;
   background-color: var(--tertiary);
   justify-content: space-between;
 }
-
-.banner-text {
-  margin: 3px;
-  font-size: xx-large;
-}
-
-h1.name {
-  background-color: var(--secondary);
-  color: var(--tertiary);
-  padding: 5px;
-  margin-top: 2px;
-  margin-bottom: 13px;
-  padding-left: 60px;
-}
-
-
 
 nav a {
   display: flex;
@@ -53,6 +37,15 @@ nav a {
   margin-top: 10px;
 }
 
+h1.name {
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 13px;
+  padding-left: 60px;
+}
+
 nav a:hover {
   background-size: 100% 100%;
   color: var(--primary);
@@ -63,19 +56,13 @@ nav {
   display: flex;
   margin-right: 10%;
 }
+/* end of header section */
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: var(--primary);
-  background-color: var(--light);
-  line-height: 1.5;
-}
 
-img {
-  display: flex;
-
+/* beginning of hero div */
+.banner-text {
+  margin: 3px;
+  font-size: xx-large;
 }
 
 .hero-image {
@@ -97,17 +84,25 @@ img {
   margin-bottom: 2%;
   margin-right: 5%;
 }
+/* end of hero div */
 
+/* beginning of body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--primary);
+  background-color: var(--light);
+  line-height: 1.5;
+}
+
+/* beginning of about me section */
 h2#aboutmetitle {
   border-right: 3px solid var(--primary);
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
   font-size: xxx-large;
-}
-
-p#aboutmetext {
-  flex: 0 0 77%;
 }
 
 section.aboutme {
@@ -117,6 +112,12 @@ section.aboutme {
   margin-bottom: 4%;
 }
 
+p#aboutmetext {
+  flex: 0 0 77%;
+}
+/* end of about me section */
+
+/* beginning of work section */
 h2#worktitle {
   border-right: 3px solid var(--primary);
   flex: 0 0 20%;
@@ -126,18 +127,13 @@ h2#worktitle {
   font-size: xxx-large;
 }
 
-
-footer.contactme {
+img {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3%;
 }
 
 figure {
   display: flex;
 }
-
 
 section.work {
   display: flex;
@@ -192,15 +188,6 @@ h3.runtext {
   margin-top: 20%;
 }
 
-h3 {
-  font-size: xx-large;
-  margin-top: 5%;
-}
-
-h5 {
-  font-size: medium;
-}
-
 h5.surftext,
 h5.ledtext,
 h5.calctext,
@@ -246,7 +233,6 @@ figure.surfimage {
   margin-left: 12%;
   margin-right: -500%;
 }
-
 
 figure.ledimage {
   background-image: url(../images/02-portfolio-1.jpg);
@@ -305,6 +291,16 @@ figure.run {
   margin-left: 310%;
   margin-top: -248px;
 }
+/* end of work section */
+/* end of body section */
+
+/* beginning of footer contact me */
+footer.contactme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+}
 
 li.contactme {
   list-style: none;
@@ -349,10 +345,19 @@ ul a:hover {
   cursor: pointer;
 
 }
+/* end of footer contact me */
 
+/* header edit */
+h3 {
+  font-size: xx-large;
+  margin-top: 5%;
+}
 
+h5 {
+  font-size: medium;
+}
 
-
+/* beginning of media queries */
 @media screen and (max-width: 480px) {
   header {
     align-items: center;
