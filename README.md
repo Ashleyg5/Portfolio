@@ -12,9 +12,9 @@
 
 ## Credits
 
-[Resource 1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/),
+[Resource 1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-[Resource 2](https://www.w3schools.com/css/css_positioning.asp),
+[Resource 2](https://www.w3schools.com/css/css_positioning.asp)
 
 [Resource 3](https://www.w3schools.com/css/css3_variables.asp)
 
