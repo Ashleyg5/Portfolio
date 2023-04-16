@@ -149,16 +149,14 @@ h3.pasteltext,
 h5.pasteltext,
 h3.runtext,
 h5.runtext {
-  display: flex;
   color: var(--dark);
-  flex-wrap: wrap;
   background-color: var(--secondary);
   border: 3px solid var(--secondary);
 }
 
 h3.surftext,
 h5.surftext {
-  margin-right: 83%;
+  margin-right: 82%;
 }
 
 h3.ledtext,
@@ -231,7 +229,7 @@ figure.surfimage {
   height: 500px;
   justify-content: flex-end;
   margin-left: 12%;
-  margin-right: -500%;
+  margin-right: -467%;
 }
 
 figure.ledimage {
@@ -260,8 +258,8 @@ figure.calculator {
   justify-content: flex-end;
   margin-right: -1165px;
   margin-left: 310%;
-  margin-top: -251px;
-  padding-top: 2%;
+  margin-top: -262px;
+  padding-top: 9%;
 }
 
 figure.pastel {
@@ -289,7 +287,8 @@ figure.run {
   justify-content: flex-end;
   margin-right: -1165px;
   margin-left: 310%;
-  margin-top: -248px;
+  margin-top: -257px;
+  padding-top: 7%;
 }
 /* end of work section */
 /* end of body section */
