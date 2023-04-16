@@ -7,7 +7,8 @@
  ## Usage
  [Portfolio](https://ashleyg5.github.io/Portfolio/)
  
- ![Portfolio Screenshot](https://user-images.githubusercontent.com/118938942/232136784-cb600920-6a7c-400a-8d61-a4ffc5d9d7ca.png)
+![Portfolio](https://user-images.githubusercontent.com/118938942/232321915-68043308-432d-44b2-9c82-70cdb8d8e218.png)
+
 
 
 
