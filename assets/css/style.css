@@ -219,7 +219,7 @@ figure.run {
 }
 
 figure.surfimage {
-  background-image: url(../images/jamesgit22.github.io_Date-on-a-Dime_.png);
+  background-image: url(../images/event-ease.herokuapp.com_.png);
   background-position: top;
   background-size: cover;
   border: 8px solid var(--secondary);
@@ -233,7 +233,7 @@ figure.surfimage {
 }
 
 figure.ledimage {
-  background-image: url(../images/02-portfolio-1.jpg);
+  background-image: url(../images/jamesgit22.github.io_Date-on-a-Dime_.png);
   background-position: top;
   background-size: cover;
   flex-basis: calc(50% - 1em);
