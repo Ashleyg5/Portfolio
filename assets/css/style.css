@@ -258,8 +258,9 @@ figure.calculator {
   justify-content: flex-end;
   margin-right: -1165px;
   margin-left: 310%;
-  margin-top: -262px;
+  margin-top: -310px;
   padding-top: 9%;
+  padding-bottom: 19%;
 }
 
 figure.pastel {
